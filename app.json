@@ -1,29 +1,37 @@
 {
   "expo": {
-    "name": "ZenFlow",
-    "slug": "ZenFlow",
-    "version": "1.0.0",
+    "name": "Zen Flow Yoga and Meditate",
+    "slug": "zen-flow",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#1a2535"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": false,
+      "bundleIdentifier": "com.zenflowyoga.app"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#1a2535"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.zenflowyoga.app"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png",
+      "themeColor": "#111d2c",
+      "backgroundColor": "#1a2535",
+      "description": "Yoga sequences, poses, meditation timers, and journaling."
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f3add054-feb0-45af-b45b-1119872d5254"
+      }
     }
   }
 }
