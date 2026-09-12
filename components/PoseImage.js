@@ -26,6 +26,14 @@ const POSE_IMAGES = {
   19: require("../assets/poses/pose_19.jpg"),
   20: require("../assets/poses/pose_20.jpg"),
   21: require("../assets/poses/pose_21.jpg"),
+  22: require("../assets/poses/pose_22.png"),
+  23: require("../assets/poses/pose_23.png"),
+  24: require("../assets/poses/pose_24.png"),
+  25: require("../assets/poses/pose_25.png"),
+  26: require("../assets/poses/pose_26.png"),
+  27: require("../assets/poses/pose_27.png"),
+  28: require("../assets/poses/pose_28.png"),
+  29: require("../assets/poses/pose_29.png"),
 };
 
 export function PoseImage({ poseId, size = 220 }) {
